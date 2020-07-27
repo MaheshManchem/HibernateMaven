@@ -29,7 +29,7 @@ public class SaveStudentIntoDB {
     }
 	
 	public static void main(String[] args) {
-		
+		//dummy creation
 		try {
 			sessionObj = buildSessionFactory().openSession();
 			sessionObj.beginTransaction();
